@@ -1,0 +1,17 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+
+namespace Local.Models
+{
+    public class Locadora
+    {
+        public string Nome { get; set; }
+
+        public Locadora(string texto)
+        {
+            this.Nome = texto;
+        }
+    }
+}
